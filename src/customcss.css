@@ -1,0 +1,39 @@
+[data-theme="light"] {
+    --color-bg: #f2f2f2;
+    --color-fg: #28282B ;
+ }
+ 
+ [data-theme="dark"] {
+    --color-bg: #28282B;
+    --color-fg: #f2f2f2 ;
+ }
+ 
+ body {
+   background-color: var(--color-bg);
+   
+ }
+ 
+ button {
+   font-size: 2rem;
+   font-weight: bold;
+   padding: 0.5rem 1rem;
+   transition: all var(--global-transition-time) ease-in-out;
+   border-radius: 2rem;
+   cursor: pointer;
+   color: var(--color-fg);
+
+ }
+
+ body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+
+
+  
+}
+.searchs{
+background-color: var(--color-bg) !important;
+filter: drop-shadow(1px 1px 1px var(--color-fg));
+border-radius: 10px
+
+}
